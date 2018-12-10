@@ -1,0 +1,15 @@
+Initial Puzzle: 
+2031
+1304
+3140
+0213
+
+ 
+Solved Puzzle:  
+2431
+1324
+3142
+4213
+
+Strategy:                Uses:          Time: 
+OnePossibleSolution       12             445
