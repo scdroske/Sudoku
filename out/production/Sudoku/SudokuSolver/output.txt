@@ -22,4 +22,4 @@ Solved Puzzle:
 399489979
 
 Strategy:                Uses:          Time: 
-OnePossibleSolution       648             0
+OnePossibleSolution       648             444

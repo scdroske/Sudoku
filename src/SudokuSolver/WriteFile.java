@@ -8,7 +8,7 @@ import java.io.OutputStream;
 public class WriteFile {
     ReadFile readFile = new ReadFile();
     protected int size = readFile.size;
-    protected int[] variables = readFile.variables;
+    //protected int[] variables = readFile.variables;
     protected int[][] initialboard = readFile.sudokuboard;
 
 

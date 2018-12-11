@@ -9,7 +9,6 @@ public class GridLayout extends JFrame{
 
 
     ReadFile readFile = new ReadFile();
-    OnePossibleSolution onesolution = new OnePossibleSolution();
     ReadSolution readSolution = new ReadSolution();
     //size of the board
     int size = readFile.size;
@@ -40,21 +39,20 @@ public class GridLayout extends JFrame{
     public static final Color OPEN_CELL_TEXT_NO = Color.RED;
     public static final Color CLOSED_CELL_BGCOLOR = new Color(240, 240, 240); // RGB
     public static final Color CLOSED_CELL_TEXT = Color.BLACK;
-    public static final int CELL_SIZE = 90;
+    public static final int CELL_SIZE = 150;
     public static final int CANVAS_W  = CELL_SIZE * 4;
     public static final int CANVAS_H = CELL_SIZE * 4;
 
-
-    //Images / Letters etc.
-    private ImageIcon InitialBoardValue = new ImageIcon("C:\\Users\\scdro\\OneDrive\\Desktop\\CS5700\\Sudoku\\1.jpg");
-    //private ImageIcon
 
     //Current Position
     private int row = 1;
     private int col = 1;
 
 
-
+    /**
+     * This is the layout that takes the size of the Sudoku Puzzle and creates a board that implements the Initial Sudoku Puzzle
+     *
+     */
     public GridLayout(){
         Container contents;
         contents = getContentPane();
@@ -83,6 +81,8 @@ public class GridLayout extends JFrame{
                 gridCells[i][j] = new JTextField();
                 contents.add(gridCells[i][j]);
 
+
+                //If the cell is to be modified:
                 if(mask[i][j]) {
                     gridCells[i][j].setText("");
                     gridCells[i][j].setEditable(true);
@@ -93,6 +93,7 @@ public class GridLayout extends JFrame{
                     gridCells[i][j].addActionListener(listener);
                 }
 
+                //if the cell already contains a fixed value:
                 else{
                     gridCells[i][j].setText(initialsudokuboard[i][j] + "");
                     gridCells[i][j].setEditable(false);

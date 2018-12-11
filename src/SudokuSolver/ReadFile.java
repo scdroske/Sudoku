@@ -22,7 +22,7 @@ public class ReadFile {
 
 
 
-    public void openFile() {
+    private void openFile() {
         try {
             Scanner scanner;
             scanner = new Scanner(new File(file));
@@ -33,7 +33,7 @@ public class ReadFile {
     }
 
 
-    public void readFile() {
+    private void readFile() {
 
         //count how many lines are in file
         //create array and copy elements in
