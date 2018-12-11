@@ -5,6 +5,13 @@ public class Validator {
         if(Double.isInfinite(size) || Double.isNaN(size)){
             throw new SudokuException(errorMessage);
         }
+
+    }
+
+    public static void validatePositiveDouble(double value, String errorMessage) throws SudokuException {
+        validateBoard(value, errorMessage);
+        if (value<0)
+            throw new SudokuException(errorMessage);
     }
 
     public static void validateSquareBoard(double size, double length, String errorMessage) throws SudokuException{

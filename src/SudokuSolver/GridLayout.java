@@ -59,8 +59,6 @@ public class GridLayout extends JFrame{
         Container contents;
         contents = getContentPane();
         contents.setLayout(new java.awt.GridLayout(size, size));
-        ButtonHandler buttonHandler = new ButtonHandler();
-
         InputListener listener = new InputListener();
 
         boolean[][] mask = new boolean[size][size];
@@ -141,22 +139,13 @@ public class GridLayout extends JFrame{
         col = i;
     }
 
-    private class ButtonHandler implements ActionListener {
-        public void actionPerformed(ActionEvent e){
-            Object source = e.getSource();
 
-            for (int i = 0; i < size; i++){
-                for (int j = 0; j < size; j++ ){
-                    //if (source == cells[i][j]){
-                        //this is where process click will allow user to type number
-                       // processClick(i,j);
-                      //  return;
-                   // }
-                }
-            }
-        }
-    }
 
+    /**
+     * This class checks the board when new values are imputted (enter key is hit)
+     * If new values are Correct, changes cell to Green
+     * If new values are Incorrect, changes cell to Red
+     */
     private class InputListener implements ActionListener{
 
         @Override
@@ -179,7 +168,6 @@ public class GridLayout extends JFrame{
                 }
             }
 
-
             int inputtedNumber = Integer.parseInt(gridCells[rowSelected][colSelected].getText());
 
             if(inputtedNumber == solvedBoard[rowSelected][colSelected]){
@@ -189,15 +177,6 @@ public class GridLayout extends JFrame{
             else{
                 gridCells[rowSelected][colSelected].setBackground(Color.RED);
             }
-
-
-            /*
-             * [TODO 6] Check if the player has solved the puzzle after this move.
-             *
-             * You could update the masks[][] on correct guess, and check the masks[][] if
-             * any input cell pending.
-             */
-
         }
     }
 }
