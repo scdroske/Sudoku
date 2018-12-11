@@ -10,6 +10,7 @@ public class GridLayout extends JFrame{
 
     ReadFile readFile = new ReadFile();
     OnePossibleSolution onesolution = new OnePossibleSolution();
+    ReadSolution readSolution = new ReadSolution();
     //size of the board
     int size = readFile.size;
 
@@ -21,26 +22,15 @@ public class GridLayout extends JFrame{
 
     //solved sudokuboard
     //this is where we will read in the solved board to be checked (update to read in file)
-    int[][] solvedBoard = onesolution.solvedBoard;
+    int[][] solvedBoard = readSolution.solvedSudokuBoard;
 
 
 
     //components:
-    //private JButton[][] cells = new JButton[size][size];
+    private JButton submit;
     private JTextField[][] gridCells = new JTextField[size][size];
 
     //will need to update this to false if number is not to be edited during runtime
-
-    private int[][] puzzle =
-            {{5, 3, 4, 6, 7, 8, 9, 1, 2},
-                    {6, 7, 2, 1, 9, 5, 3, 4, 8},
-                    {1, 9, 8, 3, 4, 2, 5, 6, 7},
-                    {8, 5, 9, 7, 6, 1, 4, 2, 3},
-                    {4, 2, 6, 8, 5, 3, 7, 9, 1},
-                    {7, 1, 3, 9, 2, 4, 8, 5, 6},
-                    {9, 6, 1, 5, 3, 7, 2, 8, 4},
-                    {2, 8, 7, 4, 1, 9, 6, 3, 5},
-                    {3, 4, 5, 2, 8, 6, 1, 7, 9}};
 
     //Sudoku Game Colors
 
@@ -189,20 +179,25 @@ public class GridLayout extends JFrame{
                 }
             }
 
-            /*
-             * [TODO 5]
-             * 1. Get the input String via tfCells[rowSelected][colSelected].getText()
-             * 2. Convert the String to int via Integer.parseInt().
-             * 3. Assume that the solution is unique. Compare the input number with
-             *    the number in the puzzle[rowSelected][colSelected].  If they are the same,
-             *    set the background to green (Color.GREEN); otherwise, set to red (Color.RED).
-             */
+
+            int inputtedNumber = Integer.parseInt(gridCells[rowSelected][colSelected].getText());
+
+            if(inputtedNumber == solvedBoard[rowSelected][colSelected]){
+                gridCells[rowSelected][colSelected].setBackground(Color.GREEN);
+
+            }
+            else{
+                gridCells[rowSelected][colSelected].setBackground(Color.RED);
+            }
+
 
             /*
              * [TODO 6] Check if the player has solved the puzzle after this move.
+             *
              * You could update the masks[][] on correct guess, and check the masks[][] if
              * any input cell pending.
              */
+
         }
     }
 }
