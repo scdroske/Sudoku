@@ -75,5 +75,38 @@ public class ValidatorTest {
                 assertEquals("Invalid", ex.getMessage());
             }
         }
+
+        @Test
+        public void validateSquareBoard() throws SudokuException{
+            Validator.validateSquareBoard(4,4, "Test message");
+
+            try{
+                Validator.validateSquareBoard(Double.NaN, 4,"No inf. allowed");
+                fail("Expected exception not thrown");
+            } catch (SudokuException ex) {
+                assertTrue("Invalid", true);
+            }
+
+            try{
+                Validator.validateSquareBoard(4, Double.NaN,"No inf. allowed");
+                fail("Expected exception not thrown");
+            } catch (SudokuException ex) {
+                assertTrue("Invalid", true);
+            }
+
+            try{
+                Validator.validateSquareBoard(5, 4,"Board Not Square");
+                fail("Expected exception not thrown");
+            } catch (SudokuException ex) {
+                assertTrue("Invalid", true);
+            }
+
+            try{
+                Validator.validateSquareBoard(9, 8,"Board Not Square");
+                fail("Expected exception not thrown");
+            } catch (SudokuException ex) {
+                assertTrue("Invalid", true);
+            }
     }
+}
 

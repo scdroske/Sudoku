@@ -18,6 +18,7 @@ public class ReadFile {
     public ReadFile(){
         openFile();
         readFile();
+        getLength();
     }
 
 
@@ -27,11 +28,11 @@ public class ReadFile {
             Scanner scanner;
             scanner = new Scanner(new File(file));
             this.scanner = scanner;
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("Cannot Find File");
         }
     }
-
 
     private void readFile() {
 
@@ -108,6 +109,11 @@ public class ReadFile {
             System.out.println("Cannot read file");
 
         }
+    }
+
+    private void getLength(){
+        int length = sudokuboard.length;
+        this.length = length;
     }
 
 }
