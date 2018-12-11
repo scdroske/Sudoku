@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class ReadSolution {
     private Scanner scanner;
     private String file = "C:\\Users\\scdro\\OneDrive\\Desktop\\CS5700\\Sudoku\\Solutions\\Puzzle-9x9-0001.txt";
+    //private String file = "C:\\Users\\scdro\\OneDrive\\Desktop\\CS5700\\Sudoku\\Solutions\\Puzzle-4x4-0001.txt";
     protected String[] contents; //contains everything in file
     public int size; //contains the size of the array
     public int length; //contains the length of the array to check that length = size

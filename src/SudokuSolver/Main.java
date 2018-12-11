@@ -18,7 +18,7 @@ public class Main {
         NakedTwins.execute();
 
         /**
-         * Get data from One Possile Solution
+         * Get data from One Possible Solution
          */
 
         int[][] solvedBoard = ((OnePossibleSolution) OnePossibleSolution).solvedBoard;

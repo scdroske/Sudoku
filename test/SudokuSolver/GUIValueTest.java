@@ -9,7 +9,7 @@ public class GUIValueTest {
      */
 
     @Test
-    public void testValidGrid() throws SudokuException{
+    public void testValidGridSize() throws SudokuException {
         ReadFile readFile = new ReadFile();
         GridLayout gridLayout = new GridLayout();
 
@@ -18,27 +18,29 @@ public class GUIValueTest {
 
 
         Assert.assertEquals(gridSize, readSize);
+    }
 
+    @Test
+        public void testValidGridBoard() throws SudokuException {
+        ReadFile readFile = new ReadFile();
+        GridLayout gridLayout = new GridLayout();
 
         int[][] sizeboard = readFile.sudokuboard;
         int[][] gridboard = gridLayout.initialsudokuboard;
 
         Assert.assertEquals(gridboard, sizeboard);
+
     }
 
-
     @Test
-    public void testCorrectSolution() throws SudokuException{
-        OnePossibleSolution oneSol = new OnePossibleSolution();
+        public void testValidGridVariables() throws SudokuException{
         ReadFile readFile = new ReadFile();
         GridLayout gridLayout = new GridLayout();
-        ReadSolution readSol = new ReadSolution();
-        int[][] solvedboard = oneSol.solvedBoard;
-        int[][] actualSolved = readSol.solvedSudokuBoard;
 
-        if(readFile.size == 4){
-            Assert.assertEquals(solvedboard, actualSolved);
-        }
+        int variables = readFile.variables.length;
+        int gridVariables = gridLayout.variables.length;
+
+        Assert.assertEquals(variables,gridVariables);
     }
 
 }
