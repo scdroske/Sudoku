@@ -3,27 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f048ed76-b9d6-41d3-aa45-29b154207c9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ShapesLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ShapesLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0002.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0101.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0201.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0901.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0902.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0903.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0904.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0905.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0906.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-4x4-0907.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solutions/Puzzle-9x9-0002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solutions/Puzzle-9x9-0002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/SudokuSolver/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/SudokuSolver/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/SudokuSolver/ReadSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/SudokuSolver/ReadSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Sudoku/SudokuSolver/GUIValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Sudoku/SudokuSolver/GUIValueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Sudoku/SudokuSolver/ReadInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Sudoku/SudokuSolver/ReadInTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SudokuSolver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SudokuSolver/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SudokuSolver/ReadSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver/ReadSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SudokuSolver/GUIValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SudokuSolver/GUIValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SudokuSolver/ReadInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/SudokuSolver/ReadInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,26 +28,26 @@
         <counts>
           <entry key="java" value="51" />
           <entry key="jpg" value="2" />
-          <entry key="txt" value="17" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
           <entry key="JAVA" value="51" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="14531" />
-          <entry key="txt" value="47" />
+          <entry key="txt" value="221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="14531" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="221" />
         </counts>
       </usages-collector>
     </session>
@@ -103,18 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
               <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SudokuSolver/ChangeValueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuSolver/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -181,6 +149,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -231,6 +208,7 @@
         <option value="$PROJECT_DIR$/test/SudokuSolver/GUIValueTest.java" />
         <option value="$PROJECT_DIR$/src/SudokuSolver/ReadSolution.java" />
         <option value="$PROJECT_DIR$/src/SudokuSolver/ReadFile.java" />
+        <option value="$PROJECT_DIR$/README.txt.txt" />
       </list>
     </option>
   </component>
@@ -269,28 +247,6 @@
               <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SudokuSolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="SudokuSolver" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -301,7 +257,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544504101957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544504337239" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../References CS5700/shapes" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -415,10 +371,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23020135" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23020135" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.347651" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.347651" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,6 +657,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
